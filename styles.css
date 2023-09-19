@@ -14,8 +14,27 @@ h3 {
     color: brown;
 }
 
+.tech-list {
+    display: flex;
+}
+
+.tech-list div {
+    width:40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10%;
+    border: 2px solid brown;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+
 .tech-list img {
-    width: 30px;
+    width: 50px;
+    
 }
 
 .summary ul li {
