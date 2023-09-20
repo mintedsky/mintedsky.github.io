@@ -43,7 +43,8 @@ h3 {
 }
 
 .job-title {
-    display: flex; 
+    display: flex;
+    flex-wrap: wrap; 
     justify-content: space-between;
     margin-bottom: 5px;
 }
