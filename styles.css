@@ -42,3 +42,25 @@ h3 {
     list-style-type: none;
 }
 
+.job-title {
+    display: flex; 
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.job-description {
+    font-style: italic;
+    font-size: 14px;
+}
+
+ul {
+    margin-top: -12px;
+}
+
+ul li {
+    font-size: 14px;
+    line-height: 1.3em;
+}
+
+
+
